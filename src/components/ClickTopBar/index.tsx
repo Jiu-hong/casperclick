@@ -44,11 +44,11 @@ const ClickTopBar = ({ themeMode, onThemeSwitch }: TopBarProps) => {
 			<TopBarContainer>
 				<ClickUI
 					topBarSettings={{
-						onThemeSwitch:onThemeSwitch,
-						accountMenuItems:accountMenuItems,
-						languageSettings:languageSettings(lang, setLang),
-						currencySettings:currencySettings(currency, setCurrency),
-						networkSettings:networkSettings(network, setNetwork),
+						onThemeSwitch: onThemeSwitch,
+						accountMenuItems: accountMenuItems,
+						languageSettings: languageSettings(lang, setLang),
+						currencySettings: currencySettings(currency, setCurrency),
+						networkSettings: networkSettings(network, setNetwork),
 					}}
 					themeMode={themeMode}
 				/>

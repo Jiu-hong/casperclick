@@ -2,9 +2,9 @@ import styled from 'styled-components';
 import desktopBgImage from '../../../bg-desktop-full.jpg'
 import mobileBgImage from '../../../bg-mobile-full.jpg'
 
-const Container = styled.div(({theme}) =>
+const Container = styled.div(({ theme }) =>
     theme.withMedia({
-        backgroundImage: [`url("${mobileBgImage}")`,`url("${desktopBgImage}")`,`url("${desktopBgImage}")`],
+        backgroundImage: [`url("${mobileBgImage}")`, `url("${desktopBgImage}")`, `url("${desktopBgImage}")`],
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundPosition: 'right',
@@ -16,14 +16,14 @@ const Container = styled.div(({theme}) =>
 const StyledSvgIcon = styled.div(({ theme }) =>
     theme.withMedia({
         svg: {
-            height: ['60px','80px','80px'],
-            width: ['60px','80px','80px'],
+            height: ['60px', '80px', '80px'],
+            width: ['60px', '80px', '80px'],
             path: { fill: theme.clickLogo },
         },
     })
 );
 
-const StyledWrapper = styled.div(({theme}) =>
+const StyledWrapper = styled.div(({ theme }) =>
     theme.withMedia({
         width: '100%',
         maxWidth: ['540px', '720px', '960px'],
@@ -32,29 +32,29 @@ const StyledWrapper = styled.div(({theme}) =>
     })
 );
 
-const InfoContainer = styled.div(({theme}) =>
+const InfoContainer = styled.div(({ theme }) =>
     theme.withMedia({
         display: 'flex',
     })
 );
-const StyledInfo = styled.div(({theme}) =>
+const StyledInfo = styled.div(({ theme }) =>
     theme.withMedia({
         position: 'relative',
         top: ['120px', '174px', '174px'],
     })
 );
 
-const GreetingText = styled.div(({theme}) =>
+const GreetingText = styled.div(({ theme }) =>
     theme.withMedia({
         color: '#DADCE5',
         fontSize: ['24px', '40px', '40px'],
         fontWeight: '600',
-        lineHeight: ['32px','56px','56px'],
+        lineHeight: ['32px', '56px', '56px'],
         marginTop: ['24px', '40px', '40px'],
     })
 );
 
-const KillerAppText = styled.div(({theme}) =>
+const KillerAppText = styled.div(({ theme }) =>
     theme.withMedia({
         color: '#A8ADBF',
         fontSize: '16px',
@@ -65,7 +65,7 @@ const KillerAppText = styled.div(({theme}) =>
     })
 );
 
-const LearnMoreButton = styled.div(({theme}) =>
+const LearnMoreButton = styled.div(({ theme }) =>
     theme.withMedia({
         display: 'flex',
         justifyContent: 'center',
@@ -74,7 +74,7 @@ const LearnMoreButton = styled.div(({theme}) =>
         height: '36px',
         padding: '8px 16px',
         borderRadius: '4px',
-        backgroundColor: '#B2332D' ,
+        backgroundColor: '#B2332D',
         fontSize: '14px',
         lineHeight: '20px',
         color: '#F2F2F2',

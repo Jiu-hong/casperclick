@@ -7,10 +7,10 @@ export const accountMenuItems = [
 	<AccountMenuItem
 		key={2}
 		onClick={() => {
-			window.open('https://docs.cspr.click', '_blank');
+			window.open('https://cowl', '_blank');
 		}}
 		icon={CSPRClickIcon}
-		label={'CSPR.click docs'}
+		label={'COWL docs'}
 		badge={{ title: 'new', variation: 'green' }}
 	/>,
 ];
